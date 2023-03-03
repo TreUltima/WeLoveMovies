@@ -10,7 +10,7 @@ router
 
 router
 	.route("/")
-	.get(controller.read)
+	.get(controller.readReviews)
 	.all(methodNotAllowed);
 
 module.exports = router;
